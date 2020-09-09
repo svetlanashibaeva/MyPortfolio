@@ -45,8 +45,13 @@
             grid-auto-rows: 280px;
             justify-content: space-around;
             row-gap: 35px;
+            .horizontal, .horizontal2, .vertical {
+                grid-row: auto;
+                grid-column: auto;
+            }
         }
     }
+
     .contacts {
         &__wrapper {
             padding: 0;
